@@ -70,7 +70,7 @@ jobs:
             ${{ secrets.GITEE_KEY }}
 
       - name: Build Gitee Pages
-        uses: yanglbme/gitee-pages-action@master
+        uses: Deomntisa/gitee-pages-action@master
         with:
           # 注意替换为你的 Gitee 用户名
           gitee-username: 17607611914
